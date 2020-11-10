@@ -13,8 +13,8 @@
 <h3>Client List</h3>
 <br>
 <div>
-
-    <table class="table table-striped">
+    <a href="/web/client/create"  class="btn btn-warning">Create</a><br>
+    <table class="table table-hover table-dark">
         <thead>
         <tr>
             <th>id</th>
@@ -37,6 +37,7 @@
                 <td><a href="/web/client/delete/${element.id}" class="btn btn-outline-danger">Delete</a></td>
                 <td><a href="/web/client/edit/${element.id}" class="btn btn-outline-success">Edit</a></td>
             </tr>
+
         </#list>
         </tbody>
     </table>

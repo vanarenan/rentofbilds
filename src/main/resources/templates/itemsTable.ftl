@@ -13,8 +13,8 @@
 <h3>Item List</h3>
 <br>
 <div>
-    <a href="/web/item/create"  class="btn btn-outline-warning">Create</a><br>
-    <table class="table table-striped">
+    <a href="/web/item/create"  class="btn btn-warning">Create</a><br>
+    <table class="table table-hover table-dark">
         <thead>
         <tr>
             <th>id</th>
